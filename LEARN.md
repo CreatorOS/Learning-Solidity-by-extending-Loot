@@ -213,7 +213,8 @@ BanditLootGold is the contract that has now been deployed by the BanditLoot cont
 
 Let’s modify our BanditLootGold erc20 contract to store who deployed this contract. 
 
-```    constructor() ERC20("BanditLootGold","BGLD"){
+```    
+    constructor() ERC20("BanditLootGold","BGLD"){
 
         owner = msg.sender;
 
